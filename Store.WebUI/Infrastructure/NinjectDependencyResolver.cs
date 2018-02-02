@@ -7,6 +7,7 @@ using Moq;
 using System.Web.Mvc;
 using Store.Domain.Abstract;
 using Store.Domain.Entities;
+using Store.Domain.Concrete;
 
 namespace Store.WebUI.Infrastructure
 {
@@ -32,16 +33,18 @@ namespace Store.WebUI.Infrastructure
 
         private void AddBindings()
         {
-            // put bindings here.
-            Mock<IProductsRepository> mock = new Mock<IProductsRepository>();
-            mock.Setup(m => m.Products).Returns(new List<Product>
-            {
-                new Product {Name= "Football", Price = 25 },
-                new Product {Name = "Surf Board", Price = 179 },
-                new Product {Name = "Running Shoes", Price = 95 }
-            });
+            //// put bindings here.
+            //Mock<IProductsRepository> mock = new Mock<IProductsRepository>();
+            //mock.Setup(m => m.Products).Returns(new List<Product>
+            //{
+            //    new Product {Name= "Football", Price = 25 },
+            //    new Product {Name = "Surf Board", Price = 179 },
+            //    new Product {Name = "Running Shoes", Price = 95 }
+            //});
 
-            _kernel.Bind<IProductsRepository>().ToConstant(mock.Object);
+            //_kernel.Bind<IProductsRepository>().ToConstant(mock.Object);
+
+            _kernel.Bind<IProductsRepository>().To<EFProductRepository>();
         }
 
     }

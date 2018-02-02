@@ -17,3 +17,8 @@ E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domai
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.csproj.CoreCompileInputs.cache
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.dll
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.pdb
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\Store.Domain.dll.config
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFramework.dll
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFramework.xml
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFramework.SqlServer.xml

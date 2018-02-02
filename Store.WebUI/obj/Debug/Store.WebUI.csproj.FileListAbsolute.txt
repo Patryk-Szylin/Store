@@ -34,3 +34,8 @@ E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\obj\Debug\Store.WebUI.
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\obj\Debug\Store.WebUI.csproj.CoreCompileInputs.cache
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\obj\Debug\Store.WebUI.dll
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\obj\Debug\Store.WebUI.pdb
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\bin\EntityFramework.dll
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\bin\EntityFramework.SqlServer.dll
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\bin\Store.Domain.dll.config
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\bin\EntityFramework.xml
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.WebUI\bin\EntityFramework.SqlServer.xml
