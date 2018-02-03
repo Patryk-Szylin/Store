@@ -24,7 +24,7 @@ namespace Store.UnitTests
             HtmlHelper myHelper = null;
 
             // Arrange - create paginginfo data
-            PagingInfo pi = new PagingInfo
+            PagingInfo pagingInfo = new PagingInfo
             {
                 CurrentPage = 2,
                 TotalItems = 28,
@@ -35,7 +35,7 @@ namespace Store.UnitTests
             Func<int, string> pageUrlDelegate = i => "Page" + i;
 
             // Act
-            //MvcHtmlString result = myHelper.PageLinks(pagingInfo, pageUrlDelegate);
+            MvcHtmlString result = myHelper.PageLinks(pagingInfo, pageUrlDelegate);
         }
     }
 }
