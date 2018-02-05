@@ -19,11 +19,12 @@ namespace Store.WebUI.Controllers
             this._repository = productRepository;
         }
 
-        public ViewResult List(int page = 1)
+        public ViewResult List(string category, int page = 1)
         {
             ProductsListViewModel model = new ProductsListViewModel
             {
                 Products = _repository.Products
+                .Where(p => category == null || p.Category == category)
                 .OrderBy(p => p.ProductID)
                 .Skip((page - 1) * m_pageSize)
                 .Take(m_pageSize),
@@ -33,7 +34,8 @@ namespace Store.WebUI.Controllers
                     CurrentPage = page,
                     ItemsPerPage = m_pageSize,
                     TotalItems = _repository.Products.Count()
-                }
+                },
+                CurrentCategory = category
             };
 
             return View(model);

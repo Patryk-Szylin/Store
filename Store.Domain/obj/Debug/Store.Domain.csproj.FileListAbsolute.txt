@@ -13,7 +13,6 @@ E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\System.Web.
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\System.Web.WebPages.xml
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\System.Web.WebPages.Razor.xml
-E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.csprojResolveAssemblyReference.cache
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.csproj.CoreCompileInputs.cache
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.dll
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.pdb
