@@ -21,3 +21,4 @@ E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFrame
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFramework.SqlServer.dll
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFramework.xml
 E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Websites\Tutorials\Pro ASP_NET MVC 5\Store\Store.Domain\obj\Debug\Store.Domain.csprojResolveAssemblyReference.cache
