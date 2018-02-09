@@ -30,6 +30,20 @@ namespace Store.WebUI.Controllers
         }
 
         [HttpPost]
+        public ActionResult Delete(int productId)
+        {
+            var deletedProduct = _repository.DeleteProduct(productId);
+
+            if(deletedProduct != null)
+            {
+                TempData["message"] = string.Format("{0} was deleted", deletedProduct.Name);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
+        [HttpPost]
         public ActionResult Edit(Product product)
         {
             if (ModelState.IsValid)
@@ -42,6 +56,11 @@ namespace Store.WebUI.Controllers
                 // There is something wrong with thedata values
                 return View(product);
             }
+        }
+
+        public ViewResult Create()
+        {
+            return View("Edit", new Product());
         }
 
     }

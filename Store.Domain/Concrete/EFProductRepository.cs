@@ -16,6 +16,19 @@ namespace Store.Domain.Concrete
             get { return _context.Products; }
         }
 
+        public Product DeleteProduct(int productID)
+        {
+            Product dbEntry = _context.Products.Find(productID);
+
+            if(dbEntry != null)
+            {
+                _context.Products.Remove(dbEntry);
+                _context.SaveChanges();
+            }
+
+            return dbEntry;
+        }
+
         public void SaveProduct(Product product)
         {
             if(product.ProductID == 0)
